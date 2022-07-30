@@ -11,12 +11,10 @@ run local image
 docker run -it my-ironfish bash
 ```
 
+import config from file
+```
 ironfish accounts:import --config=./config.json
-Enter the account name: juniormayhe
-Enter the account spending key: d74d84797b21b0874b492d579ac263638ea6cd5614b501599b3a71d13e0cada6
-Enter the account incoming view key: c7a6425ed612afb246586dc81dc59c6a799ef3039cb4bfdb3022499fc8d22d05
-Enter the account outgoing view key: ed7283cb657cb75a13ef08b06615bcc727c1dc4c6fdab89d28a7e11e9974a076
-Enter the account public address: 3216c44e3c433b0a981e8f5d167579f90ec6e2156b02300fe5379b15259523344d019d8ea16b81ed5089a8
+```
 
 ## build multi platform image
 Install pre requesites https://medium.com/@artur.klauser/building-multi-architecture-docker-images-with-buildx-27d80f7e2408
